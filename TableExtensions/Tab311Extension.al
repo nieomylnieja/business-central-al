@@ -1,0 +1,11 @@
+tableextension 50031 "Sales & Receivables Table Ext" extends "Sales & Receivables Setup"
+{
+    fields
+    {
+        field(50000; "G/L Account No."; Code[20])
+        {
+            Caption = 'G/L Account No.';
+            TableRelation = "G/L Account";
+        }
+    }
+}
